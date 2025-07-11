@@ -131,8 +131,8 @@ Contributions are welcome! If you have suggestions for improvements, feel free t
  - **Fork the Repository**: Click on the "Fork" button in the top right corner of the project page to create your own copy of the repository.
  - **Clone Your Fork**: Clone the forked repository to your local machine:
    ```bash
-   git clone https://github.com/Melina-Singh/ML_Project.git
-   cd ML_Project
+   git clone https://github.com/Melina-Singh/Student_Info_ML.git
+   cd Student_Info_ML
 
 ## License
 ![License](https://img.shields.io/badge/License-GPL%20v3-blue?style=for-the-badge)
