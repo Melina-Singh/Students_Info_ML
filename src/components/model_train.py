@@ -13,6 +13,7 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn. tree import DecisionTreeRegressor
 from xgboost import XGBRegressor
 
+
 from src.exception import CustomException
 from src.logger import logging
 from src.utilis import save_object, evaluate_models
@@ -76,6 +77,7 @@ class ModelTrainer:
                     'depth': [6,8,10],
                     # 'learning_rate': [0.01, 0.05, 0.1],
                     'iterations': [30, 50, 100]
+                    # ''
                 },
                 "Ada Boost Regressor": {
                     'learning_rate':[.1,.01,0.5,.001],
@@ -124,6 +126,7 @@ class ModelTrainer:
         except  Exception as e:
             raise CustomException(e, sys)
 
+# 
 
 
 
