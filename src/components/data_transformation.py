@@ -36,6 +36,9 @@ class DataTransformation:
                 "lunch",
                 "test_preparation_course",
             ]
+            
+            logging.info(f"Numerical columns: {numerical_columns}")
+            logging.info(f"Categorical columns: {categorical_columns}")
 
             num_pipeline = Pipeline(
                 steps = [
@@ -54,9 +57,9 @@ class DataTransformation:
                 ]
 
             )
+            
 
             logging.info("Numerical columns standard scaling completed")
-
             logging.info("Categorical columns standard scaling completed")
 
             preprocessor = ColumnTransformer(
@@ -121,7 +124,7 @@ class DataTransformation:
                 test_arr, 
                 self.data_trasformation_config.preprocessor_ob_file_path,
             )
- 
+
 
         except Exception as e:
             raise CustomException(e, sys)
