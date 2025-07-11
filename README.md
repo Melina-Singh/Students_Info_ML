@@ -21,7 +21,7 @@ The project utilizes various technologies and methodologies to enhance the predi
 - 🚀 [Usage](#usage)
 - 🔍 [Methodology](#methodology)
 - 📊 [Results](#results)
-- 🐳 [Docker and GitHub Actions for CI/CD Pipeline](#docker-and-github-actions-for-cicd-pipeline)
+- 🐳 [CI/CD Pipeline with GitHub Actions and Azure](#CI/CD-Pipeline-with-github-actions-and-Azure)
 - ✍️ [Authors](#authors)
 - 🤝 [Contributing](#contributing)
 - 📄 [License](#license)
@@ -44,14 +44,14 @@ To set up the project locally, follow these steps:
 
 - Clone the repository:
    ```bash
-   git clone(https://github.com/Melina-Singh/ML_Project.git)
-   cd repository-ML_Project
+   git clone https://github.com/Melina-Singh/Student_Info_ML.git
+   cd Student_Info_ML
    
 ## Usage
 -  Start the Flask application by running the following command in the project directory:
    ```bash
    python app.py
-   use this link
+   use this link in local device 
    http://127.0.0.1:5000/predictdata
 
 
