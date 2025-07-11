@@ -27,6 +27,22 @@ The project utilizes various technologies and methodologies to enhance the predi
 - 📄 [License](#license)
 
 
+## 📈 Data Visualization
+
+Before training the model, extensive exploratory data analysis (EDA) was performed to better understand the structure, distribution, and relationships within the dataset.
+
+### 🔍 Key Visualizations:
+- **Distribution Plots**: Visualized the spread of continuous variables like `math_score`, `reading_score`, and `writing_score`.
+- **Correlation Heatmap**: Revealed interdependencies among features and identified strong/weak correlations.
+- **Boxplots**: Used to detect outliers and understand score variations across different categorical groups (e.g., gender, lunch).
+- **Count Plots**: Provided frequency counts for categorical features like `test_preparation_course`, `parental_level_of_education`, and more.
+- **Pair Plots**: Illustrated the relationships and trends between numeric features.
+<img width="1144" height="425" alt="Screenshot 2025-07-12 022802" src="https://github.com/user-attachments/assets/938e713e-4fab-40a0-836a-581689390460" />
+<img width="1140" height="582" alt="Screenshot 2025-07-12 022911" src="https://github.com/user-attachments/assets/5ac7073d-27d8-4134-b31a-21c6450738a3" />
+<img width="1200" height="435" alt="Screenshot 2025-07-12 022844" src="https://github.com/user-attachments/assets/7cfe0ede-2bdd-4cb8-903a-22e5ca1e1b34" />
+<img width="1252" height="779" alt="Screenshot 2025-07-12 022824" src="https://github.com/user-attachments/assets/39a27815-2715-4b6a-9b14-ce3a9f0da296" />
+
+
 
 ## Requirements
 ![Requirements](https://img.shields.io/badge/Requirements-Listed-brightgreen?style=flat-square)
